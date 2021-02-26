@@ -1,0 +1,81 @@
+body{
+    color:#333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto; /* 0 is for top margin */
+    padding: 0 16px; /* np pixel above and below, 16 px body content and side of body window*/
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    color:darkslategrey;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px, 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: darkslategrey;
+}
+
+header a{
+color: darkslategrey;
+margin-right: 16px;
+text-decoration: none;
+}
+/* 
+padding puts the space inside the box
+margin puts the space outside the box
+*/
+
+.portrait{
+    width: 250px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    border: 3px solid darkslategrey;
+    padding: 15px;
+    width: 60%;
+}
+
+input:focus{
+    border: 1px solid darkslategrey;
+}
+
+button{
+    cursor: pointer;
+    border: 3px solid darkslategrey;
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+.response{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid darkslategrey;
+
+}
+
+h2{
+    color: darkslategrey
+}
+  
+/* cursor : pointer when hover over te button it it get change*/

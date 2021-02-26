@@ -5,7 +5,7 @@ const app = express()
 const geoCode = require('./utils/geoCode')
 const forecast = require('./utils/forecast')
 
-
+const port = process.env.PORT || 3000
 //define paths for express config
 const publicdirectory = path.join(__dirname, '../public')
 const hanldebarPath = path.join(__dirname,'../template/view')
@@ -79,6 +79,6 @@ app.get('*', (req, res)=>{
         name : 'Parikshit Jagtap'
     })
 })
-app.listen(3000,()=>{
-    console.log('server is running on 3000')
+app.listen(port,()=>{
+    console.log('server is running on'+port)
 })

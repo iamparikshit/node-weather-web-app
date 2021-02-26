@@ -14,7 +14,7 @@ var msg4 = document.querySelector('#message-4')
 frm.addEventListener('submit', (e)=>{
     e.preventDefault()
 
-    fetch('http://localhost:3000/weather?address='+loc.value).then((response)=>{
+    fetch('/weather?address='+loc.value).then((response)=>{
     response.json().then((res)=>{
         msg1.textContent =''
         msg2.textContent =''

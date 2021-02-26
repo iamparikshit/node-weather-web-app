@@ -1,5 +1,3 @@
-console.log('connected')
-
 // fetch('http://puzzle.mead.io/puzzle').then((response=>{
 //     response.json().then((res=>{
 //         console.log(res)

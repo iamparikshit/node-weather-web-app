@@ -16,7 +16,7 @@ frm.addEventListener('submit', (e)=>{
 
     fetch('/weather?address='+loc.value).then((response)=>{
     response.json().then((res)=>{
-        msg1.textContent =''
+        msg1.textContent ='Loading...'
         msg2.textContent =''
         msg3.textContent = ''
         msg4.textContent = ''

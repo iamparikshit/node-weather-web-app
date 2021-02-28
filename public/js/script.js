@@ -30,7 +30,7 @@ frm.addEventListener('submit', (e)=>{
             msg1.textContent =res.location+', '+res.body.location.region+', '+res.body.location.country
             document.getElementById("message-2").innerHTML = res.forecast+' &#8451;';
             msg3.textContent ='Forecast    :'+res.body.current.weather_descriptions[0]; 
-            msg4.textContent ='Humidy : '+ res.body.current.humidity
+            msg4.textContent ='Humidity : '+ res.body.current.humidity
         }
         
     })
